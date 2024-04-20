@@ -122,7 +122,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.nav__item a:hover, .nav__item a:active {
+.nav__item a:hover,
+.nav__item a:active {
   border-bottom: 1px solid #7ea7c8;
 }
 @media (min-width: 40rem) {
@@ -134,7 +135,8 @@ body {
     width: 6rem;
     margin-left: 0.3rem;
   }
-  .nav__item a:hover, .nav__item a:active {
+  .nav__item a:hover,
+  .nav__item a:active {
     border-bottom: 1px solid var(#7ea7c8);
   }
 }
@@ -142,11 +144,13 @@ body {
 .nav__item--current a {
   color: #bed3e7;
 }
-.nav__item--current a:hover, .nav__item--current a:active {
+.nav__item--current a:hover,
+.nav__item--current a:active {
   border-bottom: 0px;
 }
 @media (min-width: 40rem) {
-  .nav__item--current a:hover, .nav__item--current a:active {
+  .nav__item--current a:hover,
+  .nav__item--current a:active {
     border-bottom: 0px;
   }
 }
@@ -181,22 +185,14 @@ body {
     text-align: left;
   }
 }
-@media (min-width: 40rem) {
-  .box-container {
-    flex-direction: row;
-  }
-}
 
 .box-container__box-a {
-  margin: 0rem;
   padding: 0 1rem;
   font-weight: 200;
 }
 @media (min-width: 40rem) {
   .box-container__box-a {
     margin: 1rem;
-    flex-basis: 70%;
-    flex-grow: 2;
   }
 }
 
@@ -216,14 +212,14 @@ body {
 }
 
 .label-container {
-  padding: 1rem 1rem 3rem 1rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
-  width: 80%;
   margin: auto;
 }
+
 @media (min-width: 40rem) {
   .label-container {
     width: 40%;
@@ -233,8 +229,8 @@ body {
 .label-container__item {
   background: #ddd;
   color: black;
-  margin: 0.2rem 0.2rem;
-  padding: 0.2rem 0.3rem;
+  margin: 0.4rem 0.4rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 2px;
   min-width: 4rem;
   text-align: center;
